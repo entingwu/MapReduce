@@ -1,0 +1,60 @@
+2017-03-17 01:32:18,572 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2017-03-17 01:32:18,598 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 60
+2017-03-17 01:32:18,598 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 17
+2017-03-17 01:32:18,467 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2017-03-17 01:32:18,456 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2017-03-17 01:32:19,782 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Created AmazonS3 with InstanceProfileCredentialsProvider
+2017-03-17 01:32:43,361 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201703170123_0002
+2017-03-17 01:32:45,352 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2017-03-17 01:33:46,442 INFO org.apache.hadoop.mapred.JobClient (main):  map 33% reduce 0%
+2017-03-17 01:33:47,478 INFO org.apache.hadoop.mapred.JobClient (main):  map 66% reduce 0%
+2017-03-17 01:33:48,472 INFO org.apache.hadoop.mapred.JobClient (main):  map 66% reduce 3%
+2017-03-17 01:33:52,481 INFO org.apache.hadoop.mapred.JobClient (main):  map 66% reduce 6%
+2017-03-17 01:33:53,477 INFO org.apache.hadoop.mapred.JobClient (main):  map 66% reduce 8%
+2017-03-17 01:33:54,488 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 10%
+2017-03-17 01:33:55,489 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 11%
+2017-03-17 01:33:58,498 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 15%
+2017-03-17 01:34:00,561 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 30%
+2017-03-17 01:34:04,512 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 54%
+2017-03-17 01:34:05,543 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 58%
+2017-03-17 01:34:08,511 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 60%
+2017-03-17 01:34:10,510 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 63%
+2017-03-17 01:34:11,311 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 68%
+2017-03-17 01:34:13,310 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 87%
+2017-03-17 01:34:14,312 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 100%
+2017-03-17 01:34:30,334 INFO org.apache.hadoop.mapred.JobClient (main): Job complete: job_201703170123_0002
+2017-03-17 01:34:30,356 INFO org.apache.hadoop.mapred.JobClient (main): Counters: 29
+2017-03-17 01:34:30,356 INFO org.apache.hadoop.mapred.JobClient (main):   Job Counters
+2017-03-17 01:34:30,356 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all maps waiting after reserving slots (ms)=0
+2017-03-17 01:34:30,356 INFO org.apache.hadoop.mapred.JobClient (main):     Total time spent by all reduces waiting after reserving slots (ms)=0
+2017-03-17 01:34:30,357 INFO org.apache.hadoop.mapred.JobClient (main):     Rack-local map tasks=5
+2017-03-17 01:34:30,357 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_MAPS=158601
+2017-03-17 01:34:30,357 INFO org.apache.hadoop.mapred.JobClient (main):     SLOTS_MILLIS_REDUCES=374215
+2017-03-17 01:34:30,357 INFO org.apache.hadoop.mapred.JobClient (main):     Launched map tasks=5
+2017-03-17 01:34:30,357 INFO org.apache.hadoop.mapred.JobClient (main):     Launched reduce tasks=24
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):   File Output Format Counters
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Written=2192
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):   FileSystemCounters
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_READ=26410242
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):     FILE_BYTES_WRITTEN=39764961
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):     HDFS_BYTES_READ=390
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):     S3_BYTES_WRITTEN=2192
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):   File Input Format Counters
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):     Bytes Read=0
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):   Map-Reduce Framework
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):     Combine input records=0
+2017-03-17 01:34:30,358 INFO org.apache.hadoop.mapred.JobClient (main):     Combine output records=0
+2017-03-17 01:34:30,361 INFO org.apache.hadoop.mapred.JobClient (main):     Total committed heap usage (bytes)=5112341481
+2017-03-17 01:34:30,361 INFO org.apache.hadoop.mapred.JobClient (main):     CPU time spent (ms)=96421
+2017-03-17 01:34:30,361 INFO org.apache.hadoop.mapred.JobClient (main):     Map input records=5835213
+2017-03-17 01:34:30,361 INFO org.apache.hadoop.mapred.JobClient (main):     Map output bytes=54732694
+2017-03-17 01:34:30,361 INFO org.apache.hadoop.mapred.JobClient (main):     Map output materialized bytes=13123458
+2017-03-17 01:34:30,361 INFO org.apache.hadoop.mapred.JobClient (main):     Map output records=5824423
+2017-03-17 01:34:30,363 INFO org.apache.hadoop.mapred.JobClient (main):     Physical memory (bytes) snapshot=5312441231
+2017-03-17 01:34:30,363 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input groups=20
+2017-03-17 01:34:30,363 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce input records=5824423
+2017-03-17 01:34:30,363 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce output records=20
+2017-03-17 01:34:30,363 INFO org.apache.hadoop.mapred.JobClient (main):     Reduce shuffle bytes=13016338
+2017-03-17 01:34:30,363 INFO org.apache.hadoop.mapred.JobClient (main):     Spilled Records=17473269
+2017-03-17 01:34:30,363 INFO org.apache.hadoop.mapred.JobClient (main):     SPLIT_RAW_BYTES=372
+2017-03-17 01:34:30,363 INFO org.apache.hadoop.mapred.JobClient (main):     Virtual memory (bytes) snapshot=42803711272
